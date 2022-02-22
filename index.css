@@ -25,13 +25,13 @@ main {
   position: relative;
 }
 .title {
-  margin-right: 5%;
+  margin-right: 2%;
   color: white;
 }
 .burger {
   display: flex;
   flex-direction: column;
-  margin-left: 5%;
+  margin-left: 2%;
   cursor: pointer;
 }
 .line {
@@ -48,6 +48,7 @@ main {
   top: 8vh;
   display: flex;
   justify-content: flex-start;
+  margin-top: 25px;
   width: 20%;
   transform: translateX(-100%);
   transition: transform 0.5s ease-in;
@@ -63,6 +64,6 @@ main {
 
 .nav-links ul a {
   color: white;
-
-  margin-left: 15px;
+  margin-top: 5%;
+  margin-left: 45px;
 }
